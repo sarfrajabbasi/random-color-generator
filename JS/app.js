@@ -21,7 +21,7 @@ function produceElement(callback, el, className, numEl) {
 }
 
 const CONTAINER = makeElAndAddClass("div", "container");
-const BODY = document.querySelector('body');
+const BODY = document.querySelector("body");
 const color_container = produceElement(
   makeElAndAddClass,
   "div",
